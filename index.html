@@ -1,0 +1,702 @@
+	
+	<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Material Design</title>
+
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<link rel="shortcut icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+
+		<!-- Tab colors in the browser on mobile devices -->
+		<meta name="theme-color" content="#fff">
+		<meta name="msapplication-navbutton-color" content="#fff">
+		<meta name="msapplication-TileColor" content="#000">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+
+		<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./assets/css/app.min.css">
+	</head>
+	<body>
+
+		<div class="block container-fluid px-0">
+			<div class="block__line row mx-0">
+				<aside class="block__submenu mb-auto py-lg-3 px-2" data-da=".block__part--menu, 991, 1">
+					<button class="block__submenu-close d-lg-none d-flex align-items-center gap-3 px-3 py-2" type="button">Main menu</button>
+
+					<ul class="block__submenu-block mb-0" data-target-list="develop">
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Develop overview»">Develop overview</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<button class="block__submenu-btn d-flex align-items-center px-3" type="button" aria-label="Open the list: «Android»" data-spoiler-button>Android</button>
+
+							<ul class="block__submenu-list">
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «MDC-Android»">MDC-Android</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Jetpack Compose»">Jetpack Compose</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Flutter»">Flutter</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Web»">Web</a>
+						</li>
+					</ul>
+
+					<ul class="block__submenu-block mb-0" data-target-list="foundations">
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Foundations overview»">Foundations overview</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<button class="block__submenu-btn d-flex align-items-center px-3" type="button" aria-label="Open the list: «Accessibility»" data-spoiler-button>Accessibility</button>
+						
+							<ul class="block__submenu-list">
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Overview»">Overview</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Designing»">Designing</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Writing and text»">Writing and text</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="block__submenu-item">
+							<button class="block__submenu-btn d-flex align-items-center px-3" type="button" aria-label="Open the list: «Content design»" data-spoiler-button>Content design</button>
+						
+							<ul class="block__submenu-list">
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Overview»">Overview</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Alt text»">Alt text</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Global writing»">Global writing</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Style guide»">Style guide</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Customizing Material»">Customizing Material</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Design tokens»">Design tokens</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<button class="block__submenu-btn d-flex align-items-center px-3" type="button" aria-label="Open the list: «Interaction»" data-spoiler-button>Interaction</button>
+						
+							<ul class="block__submenu-list">
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Gestures»">Gestures</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Inputs»">Inputs</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Selection»">Selection</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «States»">States</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="block__submenu-item">
+							<button class="block__submenu-btn d-flex align-items-center px-3" type="button" aria-label="Open the list: «Layout»" data-spoiler-button>Layout</button>
+						
+							<ul class="block__submenu-list">
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Layout basics»">Layout basics</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Applying layout»">Applying layout</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Canonical layouts»">Canonical layouts</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Material A-Z»">Material A-Z</a>
+						</li>
+					</ul>
+
+					<ul class="block__submenu-block mb-0" data-target-list="styles">
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Styles overview»">Styles overview</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<button class="block__submenu-btn d-flex align-items-center px-3" type="button" aria-label="Open the list: «Color»" data-spoiler-button>Color</button>
+						
+							<ul class="block__submenu-list">
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Color system»">Color system</a>
+								</li>
+						
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Color roles»">Color roles</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<button class="block__submenu-btn d-flex align-items-center px-3" type="button" aria-label="Open the list: «Color schemes»" data-spoiler-button>Color schemes</button>
+
+									<ul class="block__submenu-list">
+										<li class="block__submenu-item">
+											<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Chosing a scheme»">Chosing a&nbsp;scheme</a>
+										</li>
+
+										<li class="block__submenu-item">
+											<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Static»">Static</a>
+										</li>
+
+										<li class="block__submenu-item">
+											<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Dynamic»">Dynamic</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Advanced»">Advanced</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Color resources»">Color resources</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Elevation»">Elevation</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Icons»">Icons</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<button class="block__submenu-btn d-flex align-items-center px-3" type="button" aria-label="Open the list: «Motion»" data-spoiler-button>Motion</button>
+
+							<ul class="block__submenu-list">
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Overview»">Overview</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Easing and duration»">Easing and duration</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Transitions»">Transitions</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Shape»">Shape</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Typography»">Typography</a>
+						</li>
+					</ul>
+
+					<ul class="block__submenu-block mb-0" data-target-list="components">
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Components overview»">Components overview</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<button class="block__submenu-btn d-flex align-items-center px-3" type="button" aria-label="Open the list: «App bars»" data-spoiler-button>App bars</button>
+						
+							<ul class="block__submenu-list">
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Bottom app bar»">Bottom app bar</a>
+								</li>
+						
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Top app bar»">Top app bar</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Badges»">Badges</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<button class="block__submenu-btn d-flex align-items-center px-3" type="button" aria-label="Open the list: «Buttons»" data-spoiler-button>Buttons</button>
+						
+							<ul class="block__submenu-list">
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «All buttons»">All buttons</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Common buttons»">Common buttons</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «FAB»">FAB</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Extended FAB»">Extended FAB</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Icon buttons»">Icon buttons</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Segmented buttons»">Segmented buttons</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Cards»">Cards</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Carousel»">Carousel</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Checkbox»">Checkbox</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Chips»">Chips</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Date pickers»">Date pickers</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Dialogs»">Dialogs</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Divider»">Divider</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Lists»">Lists</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Menus»">Menus</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<button class="block__submenu-btn d-flex align-items-center px-3" type="button" aria-label="Open the list: «Navigation»" data-spoiler-button>Navigation</button>
+
+							<ul class="block__submenu-list">
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Navigation bar»">Navigation bar</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Navigation drawer»">Navigation drawer</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Navigation rail»">Navigation rail</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Progress indicators»">Progress indicators</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Radio button»">Radio button</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Search»">Search</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<button class="block__submenu-btn d-flex align-items-center px-3" type="button" aria-label="Open the list: «Sheets»" data-spoiler-button>Sheets</button>
+
+							<ul class="block__submenu-list">
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Bottom sheets»">Bottom sheets</a>
+								</li>
+
+								<li class="block__submenu-item">
+									<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Side sheets»">Side sheets</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Sliders»">Sliders</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Snackbar»">Snackbar</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Switch»">Switch</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Tabs»">Tabs</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Text fields»">Text fields</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Time pickers»">Time pickers</a>
+						</li>
+
+						<li class="block__submenu-item">
+							<a class="block__submenu-link px-3" href="#" aria-label="Go to the page: «Tooltips»">Tooltips</a>
+						</li>
+					</ul>
+				</aside>
+
+				<nav class="block__part block__part--menu col-auto d-flex flex-column px-0 py-lg-3 pt-2">
+					<button class="block__button block__button--duplicate d-lg-none mb-2" type="button" aria-label="Open the menu"></button>
+
+					<ul class="block__menu px-lg-0 px-2 mb-auto">
+						<li class="block__menu-item mb-4 d-lg-block d-none">
+							<a class="block__menu-search google-symbols p-3 mx-auto" href="#" aria-label="Go to the page: «Search»">search</a>
+						</li>
+
+						<li class="block__menu-item">
+							<a class="block__menu-link d-flex align-items-center flex-lg-column gap-lg-1 gap-3 px-lg-2 px-3 pt-lg-0 pb-lg-3 py-2" href="#" aria-current="page" aria-label="Go to the page: «Home">
+								<span class="block__menu-icon px-lg-3 py-lg-1 my-lg-0 my-1"><svg aria-hidden="true"><use xlink:href="#logo" x="0" y="0"></use></svg></span>
+								<span class="block__menu-label">Home</span>
+							</a>
+						</li>
+
+						<li class="block__menu-item">
+							<a class="block__menu-link d-flex align-items-center flex-lg-column gap-lg-1 gap-3 px-lg-2 px-3 pt-lg-0 pb-lg-3 py-2" href="#" aria-label="Go to the page: «Get started">
+								<span class="block__menu-icon google-symbols px-lg-3 py-lg-1 my-lg-0 my-1">apps</span>
+								<span class="block__menu-label">Get started</span>
+							</a>
+						</li>
+						
+						<li class="block__menu-item">
+							<button class="block__menu-btn d-flex align-items-center flex-lg-column gap-lg-1 gap-3 px-lg-2 px-3 pt-lg-0 pb-lg-3 py-2" type="button" data-opening-list="develop">
+								<span class="block__menu-icon google-symbols px-lg-3 py-lg-1 my-lg-0 my-1">code</span>
+								<span class="block__menu-label">Develop</span>
+							</button>
+						</li>
+						
+						<li class="block__menu-item">
+							<button class="block__menu-btn d-flex align-items-center flex-lg-column gap-lg-1 gap-3 px-lg-2 px-3 pt-lg-0 pb-lg-3 py-2" type="button" data-opening-list="foundations">
+								<span class="block__menu-icon google-symbols px-lg-3 py-lg-1 my-lg-0 my-1">book</span>
+								<span class="block__menu-label">Foundations</span>
+							</button>
+						</li>
+						
+						<li class="block__menu-item">
+							<button class="block__menu-btn d-flex align-items-center flex-lg-column gap-lg-1 gap-3 px-lg-2 px-3 pt-lg-0 pb-lg-3 py-2" type="button" data-opening-list="styles">
+								<span class="block__menu-icon google-symbols px-lg-3 py-lg-1 my-lg-0 my-1">palette</span>
+								<span class="block__menu-label">Styles</span>
+							</button>
+						</li>
+						
+						<li class="block__menu-item">
+							<button class="block__menu-btn d-flex align-items-center flex-lg-column gap-lg-1 gap-3 px-lg-2 px-3 pt-lg-0 pb-lg-3 py-2" type="button" data-opening-list="components">
+								<span class="block__menu-icon google-symbols px-lg-3 py-lg-1 my-lg-0 my-1">add_circle</span>
+								<span class="block__menu-label">Components</span>
+							</button>
+						</li>
+
+						<li class="block__menu-item">
+							<a class="block__menu-link d-flex align-items-center flex-lg-column gap-lg-1 gap-3 px-lg-2 px-3 pt-lg-0 pb-lg-3 py-2" href="#" aria-label="Go to the page: «Blog">
+								<span class="block__menu-icon google-symbols px-lg-3 py-lg-1 my-lg-0 my-1">pages</span>
+								<span class="block__menu-label">Blog</span>
+							</a>
+						</li>
+					</ul>
+
+					<button class="block__switch google-symbols mt-3 mx-auto flex-shrink-0" type="button">
+						<span class="block__switch-text d-lg-none d-block pe-3"><!-- Switchable mode --></span>
+					</button>
+				</nav>
+
+				<main class="block__part block__part--content col-auto ms-auto px-0">
+					<header class="header container-fluid d-lg-none p-2">
+						<div class="header__wrap row align-items-center gap-sm-2 gap-1 mx-0">
+							<button class="header__btn block__button col-auto" type="button" aria-label="Open the menu"></button>
+
+							<a class="header__logo d-flex align-items-center col-auto gap-3 p-2" href="#" aria-label="Go to Material Design 3 homepage">
+								<svg aria-hidden="true"><use xlink:href="#logo" x="0" y="0"></use></svg>
+								<span class="d-none d-sm-block">Material Design&nbsp;3</span>
+							</a>
+
+							<a class="header__search google-symbols col-auto ms-auto" href="#" aria-label="Go to the search page">search</a>
+						</div>
+					</header>
+
+					<section class="first container-fluid px-0 py-2">
+						<div class="first__wrap row mx-auto px-1">
+							<div class="col-xl-6 col-12 px-1">
+								<article class="first__part first__part--left d-xl-flex flex-xl-column align-items-xl-start">
+									<h1 class="first__title mt-xl-auto">Material Design</h1>
+									<p class="first__text mb-0">Material&nbsp;3 is&nbsp;the latest version of&nbsp;Google’s open-source design system. Design and build beautiful, usable products with Material&nbsp;3.</p>
+									<a class="first__link th-button th-button--purple mb-xl-auto" href="#">Get started</a>
+								</article>
+							</div>
+
+							<div class="col-xl-6 col-12 mt-xl-0 mt-2 px-1">
+								<figure class="first__part first__part--right mb-0">
+									<video class="first__video" src="https://kstatic.googleusercontent.com/files/65da8f0326427a8e71bfa678348f3fa1a4bb1660e0b013591eb3bfd9df455bd5a3334249de61229029be7d2fd7cf18d4e143728b7e0702b6bde6251a9c64511a" autoplay loop muted></video>
+									<button class="first__play google-symbols" type="button" aria-label="Поставить паузу"></button>
+								</figure>
+							</div>
+						</div>
+					</section>
+
+					<section class="second container-fluid px-0">
+						<div class="second__wrap row mx-auto">
+							<h2 class="second__title col-12 p-4 mb-0">News&nbsp;& launches</h2>
+
+							<div class="col-xl-4 col-sm-6 col-12 px-1">
+								<a class="second__card" href="#">
+									<img class="second__card-img" src="https://lh3.googleusercontent.com/CZUV5ERpGmSi37S437q9yGrBDpTrCTaA_BFBe1AoFuaYuYCGGRw_Qvv4j1q3lcw7YeSJYTXoUi5UhYNA_J9XFioJb2F1wOhNTfIufwLd2SNuMxHRzPI=w960" alt="" loading="lazy" decoding="async" width="960" height="480">
+									<strong class="second__card-title pt-4 px-4 pb-1">Material Design at&nbsp;Google I/O</strong>
+									<span class="second__card-text pt-1 px-4 pb-4">See the full list of&nbsp;Material talks and tutorials launching at&nbsp;I/O 2024</span>
+								</a>
+							</div>
+
+							<div class="col-xl-4 col-sm-6 col-12 mt-sm-0 mt-2 px-1">
+								<a class="second__card" href="#">
+									<img class="second__card-img" src="https://lh3.googleusercontent.com/fnAWs0CZd5Ux984uoPYWo2zKxzkSq4DgaqRfOyEMLDY2E4dJ0LtxJpuAo_vACJS9FImkgokKKGDHZ5VSMSRWUacm9Up56bolNoMPcSK-LfB2-OTunQ=w960" alt="" loading="lazy" decoding="async" width="960" height="480">
+									<strong class="second__card-title pt-4 px-4 pb-1">How to&nbsp;get Google Fonts</strong>
+									<span class="second__card-text pt-1 px-4 pb-4">New API updates and website upgrades make font integration easier than ever</span>
+								</a>
+							</div>
+
+							<div class="col-xl-4 col-sm-6 col-12 mt-xl-0 mt-2 px-1">
+								<a class="second__card" href="#">
+									<img class="second__card-img" src="https://lh3.googleusercontent.com/cOI8fyZSqiEzQzBOzSqDjePihKw8h7OPzGn_SkeOubAUXIBFzsyP0-h1rQ7WcjeZneeOTjpUpKAv3f8xkiBkR-VXQEm-oDn7vkVsKh7vlA2myxY5CR8=w960" alt="" loading="lazy" decoding="async" width="960" height="480">
+									<strong class="second__card-title pt-4 px-4 pb-1">Figma design kit</strong>
+									<span class="second__card-text pt-1 px-4 pb-4">Start designing and prototyping with the complete M3&nbsp;library of&nbsp;ready-made components</span>
+								</a>
+							</div>
+
+							<h2 class="second__title col-12 p-4 mb-0">Design system updates</h2>
+
+							<div class="col-xl-4 col-sm-6 col-12 px-1">
+								<a class="second__card" href="#">
+									<img class="second__card-img" src="https://lh3.googleusercontent.com/5wF10lWKwUdEXqvpGbb2AZBj1NGkW0ThazUMINJxyvkfNIEj2rC2LWCMYsomty3YUW6RVrydHNZM4tIzjsGGe5VO9E8bgT8bcw6_8q-mr15VirxP7w=w960" alt="" loading="lazy" decoding="async" width="960" height="480">
+									<strong class="second__card-title pt-4 px-4 pb-1">Content design</strong>
+									<span class="second__card-text pt-1 px-4 pb-4">Guidance and best practices for&nbsp;UX writing and information design</span>
+								</a>
+							</div>
+
+							<div class="col-xl-4 col-sm-6 col-12 mt-sm-0 mt-2 px-1">
+								<a class="second__card" href="#">
+									<img class="second__card-img" src="https://lh3.googleusercontent.com/nv-x3DNfNXIiqgGq8HbaDX1Td6rc1zDfQG0bDtywnnz4TQeaLmEgi27LQGJXvuqiJw5CRF9o2Ehmaiw4a78R8ci-pTzcQLITH4LAac1IqDZARVHfkg=w960" alt="" loading="lazy" decoding="async" width="960" height="480">
+									<strong class="second__card-title pt-4 px-4 pb-1">New component: Carousel</strong>
+									<span class="second__card-text pt-1 px-4 pb-4">An&nbsp;expressive new way to&nbsp;display a&nbsp;horizontally scrolling collection of&nbsp;content</span>
+								</a>
+							</div>
+
+							<div class="col-xl-4 col-sm-6 col-12 mt-xl-0 mt-2 px-1">
+								<a class="second__card" href="#">
+									<img class="second__card-img" src="https://lh3.googleusercontent.com/gGORONloh2SSMBO05sP2gCdGr39QhbtRcDt6nZNR_hf0HhAG_VlH6e1UPvyUEXCeXtifwsyBvCqoTRQAvJVP6B26LcScxAVN4NlwDXRbLtiPINkJ61Ke=w960" alt="" loading="lazy" decoding="async" width="960" height="480">
+									<strong class="second__card-title pt-4 px-4 pb-1">M3&nbsp;for Jetpack Compose</strong>
+									<span class="second__card-text pt-1 px-4 pb-4">With the latest stable release, use Jetpack Compose to&nbsp;build a&nbsp;complete M3&nbsp;Android app</span>
+								</a>
+							</div>
+
+							<div class="col-xl-4 col-sm-6 col-12 mt-2 px-1">
+								<a class="second__card" href="#">
+									<img class="second__card-img" src="https://lh3.googleusercontent.com/_mrzE7Ph8pwwCeEKt7JaV-1L6bQwWyQxekfcUCG4diKZfRDDwhq5Wg4usar-ycklADM_aKJNjeQTAey2fHIK3pkFPjLHdkqmOYpAovRisMvwH1Q-m62U=w960" alt="" loading="lazy" decoding="async" width="960" height="480">
+									<strong class="second__card-title pt-4 px-4 pb-1">Material Theme Builder</strong>
+									<span class="second__card-text pt-1 px-4 pb-4">Easily migrate or&nbsp;get started with the M3&nbsp;color system and dynamic color</span>
+								</a>
+							</div>
+
+							<div class="col-xl-4 col-sm-6 col-12 mt-2 px-1">
+								<a class="second__card" href="#">
+									<img class="second__card-img" src="https://lh3.googleusercontent.com/mCqqIfxaJ8IY7JjyvRUDgf26Q5bYVnpAJTQIlH1eresdLmToSp_F8qrOm0r5iqKUjJV4hPj3i2d6camRD1vKD1vA3gbC_pmlIZXlMKxX9GPa9GCIWOI=w960" alt="" loading="lazy" decoding="async" width="960" height="480">
+									<strong class="second__card-title pt-4 px-4 pb-1">How the color system works</strong>
+									<span class="second__card-text pt-1 px-4 pb-4">From color roles and accessible tone pairs to&nbsp;dynamic color, learn how color works in&nbsp;Material</span>
+								</a>
+							</div>
+
+							<div class="col-xl-4 col-sm-6 col-12 mt-2 px-1">
+								<a class="second__card" href="#">
+									<img class="second__card-img" src="https://lh3.googleusercontent.com/fU4H9RSXzfK5SAc_dqpotTXweuGg36AtYDqq7GcR2KKBhnnmMZbqyjt1pBUdlt5ITs_qaMm87S9Krm9M4_3x7ZGZmdLYaTAXrhgmfv5ptajWHAmuuw=w960" alt="" loading="lazy" decoding="async" width="960" height="480">
+									<strong class="second__card-title pt-4 px-4 pb-1">Using Material icons</strong>
+									<span class="second__card-text pt-1 px-4 pb-4">Learn how to&nbsp;use and customize the latest system icons for your&nbsp;UI</span>
+								</a>
+							</div>
+
+							<h2 class="second__title col-12 p-4 mb-0">Resources</h2>
+
+							<div class="col-lg-6 col-12 px-1">
+								<a class="second__card" href="#">
+									<strong class="second__card-title pt-4 px-4 pb-1">Material blog</strong>
+									<span class="second__card-text pt-1 px-4 pb-4">News, tutorials, and inspiration from the Material team</span>
+								</a>
+							</div>
+
+							<div class="col-lg-6 col-12 mt-lg-0 mt-2 px-1">
+								<a class="second__card" href="#">
+									<strong class="second__card-title pt-4 px-4 pb-1">Figma design kit</strong>
+									<span class="second__card-text pt-1 px-4 pb-4">Customizable styles and components to&nbsp;help you design with Material&nbsp;3</span>
+								</a>
+							</div>
+
+							<div class="col-lg-6 col-12 mt-2 px-1">
+								<a class="second__card" href="#">
+									<strong class="second__card-title pt-4 px-4 pb-1">Get started</strong>
+									<span class="second__card-text pt-1 px-4 pb-4">Guides, videos, and tools to&nbsp;start building with Material</span>
+								</a>
+							</div>
+
+							<div class="col-lg-6 col-12 mt-2 px-1">
+								<a class="second__card" href="#">
+									<strong class="second__card-title pt-4 px-4 pb-1">Develop</strong>
+									<span class="second__card-text pt-1 px-4 pb-4">Code and developer documentation for building with Material</span>
+								</a>
+							</div>
+						</div>
+					</section>
+
+					<footer class="footer container-fluid px-0">
+						<div class="footer__wrap row mx-auto">
+							<div class="col-lg-6 col-12 pe-lg-5 px-0">
+								<a class="footer__logo" href="#" aria-label="Material Design"><svg aria-hidden="true"><use xlink:href="#logo" x="0" y="0"></use></svg></a>
+								<p class="footer__text mt-4 mb-0">Material Design is&nbsp;an&nbsp;adaptable system of&nbsp;guidelines, components, and tools that support the best practices of&nbsp;user interface design. Backed by&nbsp;open-source code, Material Design streamlines collaboration between designers and developers, and helps teams quickly build beautiful products.</p>
+							</div>
+
+							<div class="col-lg-2 col-4 mt-lg-4 mt-5 px-0">
+								<ul class="footer__list d-flex flex-column gap-3 ps-0 pe-sm-3 pe-2 mb-0" aria-label="Social">
+									<li class="footer__item">
+										<a class="footer__link" href="#" target="_blank" aria-label="Find us on Github">GitHub</a>
+									</li>
+
+									<li class="footer__item">
+										<a class="footer__link" href="#" target="_blank" aria-label="Find us on Twitter">Twitter</a>
+									</li>
+
+									<li class="footer__item">
+										<a class="footer__link" href="#" target="_blank" aria-label="Find us on YouTube">YouTube</a>
+									</li>
+
+									<li class="footer__item">
+										<a class="footer__link" href="#" aria-label="Go to the page: «Blog RSS»">Blog RSS</a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="col-lg-2 col-4 mt-lg-4 mt-5 px-0">
+								<ul class="footer__list d-flex flex-column gap-3 ps-0 pe-sm-3 pe-2 mb-0" aria-label="Libraries">
+									<li class="footer__item">
+										<a class="footer__link" href="#" aria-label="Go to the page: «Android»">Android</a>
+									</li>
+
+									<li class="footer__item">
+										<a class="footer__link" href="#" aria-label="Go to the page: «Compose»">Compose</a>
+									</li>
+
+									<li class="footer__item">
+										<a class="footer__link" href="#" aria-label="Go to the page: «Flutter»">Flutter</a>
+									</li>
+
+									<li class="footer__item">
+										<a class="footer__link" href="#" aria-label="Go to the page: «Web»">Web</a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="col-lg-2 col-4 mt-lg-4 mt-5 px-0">
+								<ul class="footer__list d-flex flex-column gap-3 ps-0 mb-0" aria-label="Archived versions">
+									<li class="footer__item">
+										<a class="footer__link" href="#" aria-label="Go to the page: «Material Design 1»">Material Design&nbsp;1</a>
+									</li>
+
+									<li class="footer__item">
+										<a class="footer__link" href="#" aria-label="Go to the page: «Material Design 2»">Material Design&nbsp;2</a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="footer__block col-12 px-0">
+								<ul class="footer__block-list d-flex flex-wrap ps-0 mb-0">
+									<li class="footer__item">
+										<a class="footer__link footer__link--default" href="#" aria-label="Go to the page: «Google»"><svg class="footer__google-icon" aria-hidden="true"><use xlink:href="#google" x="0" y="0"></use></svg></a>
+									</li>
+
+									<li class="footer__item">
+										<a class="footer__link footer__link--default" href="#" aria-label="Go to the page: «Privacy Policy»">Privacy Policy</a>
+									</li>
+
+									<li class="footer__item">
+										<a class="footer__link footer__link--default" href="#" aria-label="Go to the page: «Terms of Service»">Terms of&nbsp;Service</a>
+									</li>
+
+									<li class="footer__item">
+										<a class="footer__link footer__link--default" href="#" aria-label="Go to the page: «Join research studies»">Join research studies</a>
+									</li>
+
+									<li class="footer__item">
+										<button class="footer__link footer__link--default" type="button">Feedback</button>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</footer>
+				</main>
+			</div>
+		</div>
+
+		<svg style="display: none;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+	<symbol id="logo" viewBox="0 0 24 24"><path d="M21 12c0-2.03-.67-3.91-2-5.62v11.25c1.33-1.66 2-3.54 2-5.63m-3.37 7H6.38c.68.55 1.57 1 2.67 1.41 1.09.39 2.08.59 2.95.59.88 0 1.86-.2 2.95-.59 1.1-.41 1.99-.86 2.68-1.41M11 17 7 9v8h4m6-8-4 8h4V9m-5 5.53L15.75 7h-7.5L12 14.53M17.63 5C15.97 3.67 14.09 3 12 3s-3.97.67-5.62 2h11.25M5 17.63V6.38C3.67 8.09 3 9.97 3 12c0 2.09.67 3.97 2 5.63M23 12c0 3.03-1.06 5.63-3.22 7.78C17.63 21.94 15.03 23 12 23c-3.03 0-5.62-1.06-7.78-3.22C2.06 17.63 1 15.03 1 12c0-3.03 1.06-5.62 3.22-7.78S8.97 1 12 1c3.03 0 5.63 1.06 7.78 3.22C21.94 6.38 23 8.97 23 12Z"></path></symbol>
+	<symbol id="google" viewBox="0 0 71 23"><path fill-rule="evenodd" d="M0 8.773C0 3.937 4.083 0 8.938 0c2.684 0 4.595 1.047 6.034 2.415l-1.695 1.693c-1.032-.962-2.429-1.712-4.339-1.712-3.545 0-6.317 2.847-6.317 6.377s2.772 6.381 6.317 6.381c2.297 0 3.607-.921 4.446-1.756.687-.686 1.137-1.67 1.307-3.02H8.938V7.982h8.097c.085.43.129.946.129 1.5 0 1.797-.494 4.025-2.084 5.608-1.547 1.603-3.524 2.462-6.142 2.462C4.083 17.55 0 13.61 0 8.773zm23.693 6.303c-1.719 0-3.198-1.413-3.198-3.425 0-2.032 1.479-3.423 3.198-3.423 1.718 0 3.201 1.391 3.201 3.423 0 2.012-1.483 3.425-3.201 3.425m0-9.076C20.557 6 18 8.375 18 11.65c0 3.257 2.557 5.652 5.693 5.652 3.137 0 5.692-2.395 5.692-5.651C29.385 8.375 26.83 6 23.693 6m13.003 9.076c-1.719 0-3.2-1.413-3.2-3.425 0-2.032 1.481-3.423 3.2-3.423 1.718 0 3.2 1.391 3.2 3.423 0 2.012-1.482 3.425-3.2 3.425m0-9.076C33.559 6 31 8.375 31 11.65c0 3.257 2.559 5.652 5.696 5.652 3.135 0 5.692-2.395 5.692-5.651C42.388 8.375 39.831 6 36.696 6m11.952 9.076c-1.716 0-3.156-1.432-3.156-3.403 0-1.991 1.44-3.445 3.156-3.445 1.697 0 3.031 1.454 3.031 3.445 0 1.971-1.334 3.403-3.031 3.403zm2.858-8.732v.918h-.085C50.861 6.601 49.789 6 48.434 6 45.6 6 43 8.485 43 11.673c0 3.168 2.6 5.63 5.434 5.63 1.355 0 2.427-.6 2.987-1.287h.085v.816c0 2.162-1.161 3.316-3.028 3.316-1.526 0-2.471-1.092-2.857-2.01l-2.171.9c.624 1.498 2.278 3.336 5.028 3.336 2.922 0 5.391-1.713 5.391-5.885V6.344h-2.363zM56 16.608h2.49V0H56zm9.434-8.425c.987 0 1.825.494 2.104 1.199l-5.069 2.096c-.065-2.182 1.697-3.295 2.965-3.295m.192 6.891c-1.267 0-2.169-.578-2.748-1.71l7.582-3.125-.259-.643C69.729 8.333 68.29 6 65.347 6 62.427 6 60 8.292 60 11.65c0 3.167 2.404 5.65 5.626 5.65 2.599 0 4.103-1.583 4.727-2.504l-1.934-1.284c-.643.942-1.525 1.562-2.793 1.562"></path></symbol>
+</svg>
+
+		<script src="./assets/js/app.min.js"></script>
+	</body>
+</html>
